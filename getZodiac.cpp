@@ -5,12 +5,6 @@
 
 using namespace std;
 
-/*
-COSC 4353
-Iptihar && Julian contributed equally.
-assignment 2
-*/
-
 bool validInput(string dob) {
 	//	string month = dob[0] + dob[1];
 	int month = stoi(dob.substr(0, 2));
